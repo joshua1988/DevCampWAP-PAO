@@ -8,6 +8,7 @@ Performance Analysis &amp; Optimization
 ## Gulp
 
 ## Webpack
+#### Getting-Started
 1. Install webpack global
 
   ```js
@@ -85,3 +86,21 @@ Performance Analysis &amp; Optimization
     }
   };
   ```
+
+#### Example1 - CSS Code Splitting
+- As for CSS files, use `css-loader` & `ExtractTextWebpackPlugin` for better performance
+
+```text
+npm i css-loader style-loader --save-dev
+npm i extract-text-webpack-plugin --save-dev
+```
+
+#### Example2 - Libraries Code Splitting
+-
+
+```text
+npm install --save moment
+npm install --save lodash
+
+npm i webpack-manifest-plugin --save-dev
+```

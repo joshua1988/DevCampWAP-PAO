@@ -19,7 +19,7 @@ module.exports = {
     // #1 - 모든 번들에 외부 라이브러리가 중복으로 로딩되지 않도록 CommonsChunkPlugin 사용
     new webpack.optimize.CommonsChunkPlugin({
       name: 'vendor' // Specify the common bundle's name.
-      // #2 - 외부 라이브러리 자동 인식
+      // #2 - 외부 라이브러리 자동 인식 옵션
       // minChunks: function (module) {
       //    // node_modules 안에 들어간 3rd 파티 라이브러리는 모두 외부 라이브러리로 간주
       //    return module.context && module.context.indexOf('node_modules') !== -1;

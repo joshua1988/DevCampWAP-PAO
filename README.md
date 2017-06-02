@@ -88,7 +88,7 @@ Performance Analysis &amp; Optimization
   ```
 
 #### Example1 - CSS Code Splitting
-- As for CSS files, use `css-loader` & `ExtractTextWebpackPlugin` for better performance
+- As for CSS files, use `css-loader`for default setting. The extra option `ExtractTextWebpackPlugin` is available for better performance
 
 ```text
 npm i css-loader style-loader --save-dev
@@ -96,7 +96,7 @@ npm i extract-text-webpack-plugin --save-dev
 ```
 
 #### Example2 - Libraries Code Splitting
--
+- When using a couple of libraries, should you import them at the very beginning of bundling all files to avoid repetitively use them in every build.
 
 ```text
 npm install --save moment
@@ -104,3 +104,6 @@ npm install --save lodash
 
 npm i webpack-manifest-plugin --save-dev
 ```
+
+#### Example3 - Development Setting
+- Initial development setting to make the build process easier

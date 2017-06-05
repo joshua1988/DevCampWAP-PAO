@@ -1,6 +1,25 @@
 # DevCampWAP-PAO
 Performance Analysis &amp; Optimization
 
+## Performance Tips - Javascript Best Practices
+1. go into the `perf-tips/js-best-practices`
+2. make a branch `answer/yourname`
+3. make a folder under js-best-practices
+4. name the folder with your name. ex) `jangkeehyo`
+5. create a file named `answer.js` and answer the questions
+6. make a pull request to the master
+
+## Gzip Compression - Node.js
+1. go into `gzip-nodejs` folder
+2. run these commands in order
+
+```
+npm install
+node server.js
+```
+
+3. check out how Gzip works in the web resources
+
 ## Page Insights
 
 ## Lighthouse

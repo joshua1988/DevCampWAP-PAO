@@ -124,5 +124,19 @@ npm install --save lodash
 npm i webpack-manifest-plugin --save-dev
 ```
 
-#### Example3 - Development Setting
+#### Example3 - Webpack Dev Server Setting
 - Initial development setting to make the build process easier
+
+```
+npm install --save-dev webpack-dev-server
+webpack-dev-server --open
+```
+
+- or add this option to `package.json` to launch the dev server
+
+```json
+"scripts": { "start": "webpack-dev-server" }
+```
+
+#### Example4 - Webpack Dev Middleware
+- 

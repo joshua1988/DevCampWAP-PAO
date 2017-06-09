@@ -52,7 +52,7 @@ npm install
 
 #### Example 4 - compression sample
 
-#### Example 5 - Google Starter Kit
+#### Example 5 - [Google Starter Kit](https://developers.google.com/web/tools/starter-kit/?hl=ko)
 
 ## Webpack
 #### Getting-Started

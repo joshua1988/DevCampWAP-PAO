@@ -1,16 +1,15 @@
 var gulp = require('gulp');
 var gutil = require('gulp-util');
-// https://github.com/google/eslint-config-google
-var lint = require('eslint-config-google');
+var eslint = require('gulp-eslint');
 
 gulp.task('watch', function () {
-  gulp.watch('public/*.js', ['jsLint']);
+  gulp.watch('app/*.js', ['jsLint']);
 });
 
 gulp.task('jsLint', function () {
-  gulp.src('public/*.js')
-    .pipe(lint.eslint())
-    .pipe(lint.eslint.format());
+  gulp.src('app/*.js')
+    .pipe(eslint())
+    .pipe(eslint.format());
 });
 
 gulp.task('default', ['watch']);

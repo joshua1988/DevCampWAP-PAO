@@ -10,6 +10,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-google": "^0.8.0",
     "gulp": "^3.9.1"
+  },
+  "eslintConfig": {
+    "extends": "google"
   }
 }

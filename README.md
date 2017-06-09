@@ -48,8 +48,11 @@ npm install
 
 #### Example 2 - .src() & .dest() & gulp-htmlmin
 
-#### Example 3 - .watch()
+#### Example 3 - .watch() & eslint-google
 
+#### Example 4 - compression sample
+
+#### Example 5 - Google Starter Kit
 
 ## Webpack
 #### Getting-Started

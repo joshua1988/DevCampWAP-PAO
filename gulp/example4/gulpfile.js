@@ -52,13 +52,13 @@ gulp.task('js-minify', function (cb) {
     .pipe(gulp.dest('dist/js'));
 });
 
-// gulp.task('js-libs-concat', function() {
-// 	return gulp.src('./js/**/*.js')
-//     .pipe(sourcemaps.init())
-// 		.pipe(concat('merged-libs.js'))
-//     .pipe(sourcemaps.write())
-// 		.pipe(gulp.dest('./dist/'));
-// });
+gulp.task('js-libs-concat', function() {
+	return gulp.src('./js/*/*.js')
+    .pipe(sourcemaps.init())
+		.pipe(concat('merged-libs.js'))
+    .pipe(sourcemaps.write())
+		.pipe(gulp.dest('./dist/'));
+});
 
 gulp.task('images', function(){
   return gulp.src('app/images/**/*.+(png|jpg|gif|svg)')
